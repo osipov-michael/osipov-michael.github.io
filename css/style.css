@@ -1,0 +1,122 @@
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Playfair Display', serif;
+}
+p, span {
+    font-weight: 500;
+    color: #666666;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+}
+a, button {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 1.2rem;
+}
+body {
+    padding: 0;
+}
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.w-85 {
+    width: 85%;
+}
+.logo {
+    margin-right: 65px;
+}
+.navbar-nav li {
+    margin-right: 20px;
+}
+.title-header h3 {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #9a9a9a;
+    font-weight: 100;
+}
+.line {
+    width: 60px;
+    height: 20px;
+    border-bottom: 4px solid #ff9d54;
+    display: inline-block;
+    margin-left: 15px;
+}
+.about-card {
+    border: none;
+    margin: 75px 0 0 0;
+    padding-right: 50px;
+}
+.card-title{
+    margin-bottom: 25px;
+}
+.card-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 45px;
+}
+.illustration {
+    padding: 0;
+    margin: 0;
+}
+.vertical-text {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -170px;
+    top: 250px;
+    
+
+}
+.vertical-text ul li a {
+    color: #666666;
+}
+.vertical-text ul li a:hover {
+    color: #ff9d54;
+}
+.featured-header {
+    margin-bottom: 50px;
+}
+.featured-header div{
+    padding: 0;
+}
+.gallery-nav li a {
+    color: #666666;
+    font-size: 1rem;
+}
+.gallery-nav li a:hover{
+    color: #ff9d54;
+}
+.gallery-nav li .active {
+    color: #ff9d54;
+}
+.container-featured, .container-blog, .container-contact {
+    /* padding: 0 130px 0 130px; */
+    margin: 100px 0 100px 0;
+}
+.read-more {
+    color: #ff9d54;
+}
+.read-more:hover {
+    color: #666666;
+}
+.blog-card {
+    border: none;
+}
+.container-article {
+    margin-bottom: 100px;
+}
+.red-star {
+    color: red;
+}
+.submit-button {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        margin: 0 25px;
+    }
+}
